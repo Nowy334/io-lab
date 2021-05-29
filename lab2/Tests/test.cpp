@@ -74,18 +74,6 @@ TEST(constructor, CheckRowsAndColumnsVectorConstructor) {
 	}
 }
 
-TEST(operators, CheckMultiplicationBetweenTwoMatrices) {
-	vector<double> v1 = { 4.2,4.2,4.2,4.2 };
-	vector<double> v2 = { 3.3,3.3,3.3,3.3 };
-	vector<double> v3 = { 27.72, 27.72, 27.72, 27.72 };
-	Matrix A(2, 2, v1);
-	Matrix B(2, 2, v2);
-	Matrix D(2, 2, v3);
-	Matrix C = A * B;
-	EXPECT_EQ(D == C, true) <<"Nie dziala operator mnozenia";
-}
-
-
 class MultiplicationBetweenTwoMatricesTests : public ::testing::TestWithParam<tuple<Matrix, Matrix, Matrix>> {};
 
 TEST_P(MultiplicationBetweenTwoMatricesTests, MultiplicationBetweenTwoMatrices)
@@ -117,7 +105,7 @@ TEST_P(AdditionMatrixTests, CheckAddition)
 	Matrix A = get<0>(GetParam());
 	Matrix expected_result = get<1>(GetParam());
 	A = A + A;
-	EXPECT_TRUE(A == expected_result) << "Dodawanie nie dzia³a";
+	EXPECT_TRUE(A == expected_result) << "Dodawanie nie dziaÂ³a";
 	A.print();
 }
 
@@ -144,7 +132,7 @@ TEST(LoadDataTests, CheckLoadDataTest) {
 	}
 
 	Matrix A(columns, rows);
-	ASSERT_TRUE(A.load_data(arr) == true) << "Nieprawid³owe wartoœci";
+	ASSERT_TRUE(A.load_data(arr) == true) << "NieprawidÂ³owe wartoÅ“ci";
 }
 
 TEST(LoadDataTests, CheckLoadDataVectorTest) {
@@ -153,13 +141,13 @@ TEST(LoadDataTests, CheckLoadDataVectorTest) {
 	Matrix B(2, v);
 
 	ASSERT_TRUE(A.load_data(v, 2, 2) == true) << "Zaladowanie nie dziala";
-	ASSERT_TRUE(A == B) << "Nieprawid³owe wartoœci";
+	ASSERT_TRUE(A == B) << "NieprawidÂ³owe wartoÅ“ci";
 	
 }
 
 TEST(LoadDataTests, CheckLoadDataLambdaTest) {
 	Matrix A(2);
-	EXPECT_TRUE((A.load_data([](int i, int j) {return (double)2; })) == true) <<"Za³adowanie nie dzia³a";
+	EXPECT_TRUE((A.load_data([](int i, int j) {return (double)2; })) == true) <<"ZaÂ³adowanie nie dziaÂ³a";
 	
 }
 
@@ -170,7 +158,7 @@ TEST_P(DeterminantMatrixTests, CheckAddition)
 {
 	Matrix A = get<0>(GetParam());
 	double expected_result = get<1>(GetParam());
-	EXPECT_TRUE(A.determinant() == expected_result) << "Nieprawid³owa determinanta" << "\nDeterminanta obliczona: " << A.determinant() << "\nDeterminanta zadana: " << expected_result;
+	EXPECT_TRUE(A.determinant() == expected_result) << "NieprawidÂ³owa determinanta" << "\nDeterminanta obliczona: " << A.determinant() << "\nDeterminanta zadana: " << expected_result;
 	A.print();
 }
 
