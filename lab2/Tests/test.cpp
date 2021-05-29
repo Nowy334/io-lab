@@ -83,7 +83,6 @@ TEST_P(MultiplicationBetweenTwoMatricesTests, MultiplicationBetweenTwoMatrices)
 	Matrix expected_result = get<2>(GetParam());
 	A = A * B;
 	EXPECT_TRUE(A == expected_result) << "Operator mnozenia nie dziala";
-	A.print();
 }
 
 INSTANTIATE_TEST_CASE_P(MultiplicationBetweenTwoMatricesTests, MultiplicationBetweenTwoMatricesTests,
@@ -106,7 +105,6 @@ TEST_P(AdditionMatrixTests, CheckAddition)
 	Matrix expected_result = get<1>(GetParam());
 	A = A + A;
 	EXPECT_TRUE(A == expected_result) << "Dodawanie nie dzia³a";
-	A.print();
 }
 
 INSTANTIATE_TEST_CASE_P(AdditionMatrixTest, AdditionMatrixTests,
@@ -159,7 +157,6 @@ TEST_P(DeterminantMatrixTests, CheckAddition)
 	Matrix A = get<0>(GetParam());
 	double expected_result = get<1>(GetParam());
 	EXPECT_TRUE(A.determinant() == expected_result) << "Nieprawid³owa determinanta" << "\nDeterminanta obliczona: " << A.determinant() << "\nDeterminanta zadana: " << expected_result;
-	A.print();
 }
 
 INSTANTIATE_TEST_CASE_P(DeterminantMatrixTest, DeterminantMatrixTests,
