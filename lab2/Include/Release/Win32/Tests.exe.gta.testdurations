@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GtaTestDurations xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Executable>E:\Programming\C++\TestingLab-students\Include\Release\Win32\Tests.exe</Executable>
+  <TestDurations>
+    <TestDuration Test="Rank.CheckRankInitializerFunc" Duration="1" />
+    <TestDuration Test="Rank.ChekRankZero" Duration="1" />
+    <TestDuration Test="Rank.UnitMatrix" Duration="1" />
+    <TestDuration Test="Determinant.CheckDeterminantInitializerFunc" Duration="1" />
+    <TestDuration Test="MultiplicationByIntTest/MultiplicationByIntTests.CheckMultiplication/0" Duration="1" />
+    <TestDuration Test="MultiplicationByIntTest/MultiplicationByIntTests.CheckMultiplication/1" Duration="1" />
+    <TestDuration Test="MultiplicationByIntTest/MultiplicationByIntTests.CheckMultiplication/2" Duration="1" />
+    <TestDuration Test="MultiplicationByIntTest/MultiplicationByIntTests.CheckMultiplication/3" Duration="1" />
+    <TestDuration Test="MultiplicationByIntTest/MultiplicationByIntTests.CheckMultiplication/4" Duration="1" />
+    <TestDuration Test="MultiplicationByIntTest/MultiplicationByIntTests.CheckMultiplication/5" Duration="1" />
+    <TestDuration Test="MultiplicationByIntTest/MultiplicationByIntTests.CheckMultiplication/6" Duration="1" />
+    <TestDuration Test="MultiplicationByIntTest/MultiplicationByIntTests.CheckMultiplication/7" Duration="1" />
+    <TestDuration Test="MultiplicationByIntTest/MultiplicationByIntTests.CheckMultiplication/8" Duration="1" />
+    <TestDuration Test="MultiplicationByIntTest/MultiplicationByIntTests.CheckMultiplication/9" Duration="1" />
+  </TestDurations>
+</GtaTestDurations>

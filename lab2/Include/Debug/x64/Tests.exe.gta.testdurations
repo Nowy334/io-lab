@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GtaTestDurations xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Executable>F:\studia\IO\tesotwanie\TestingLab-students\Include\Debug\x64\Tests.exe</Executable>
+  <TestDurations>
+    <TestDuration Test="MultiplicationByMatrixTest.MultiplyEmpty" Duration="1" />
+    <TestDuration Test="MultiplicationByMatrixTest.MultiplyByEmpty" Duration="1" />
+    <TestDuration Test="Rank.CheckRankInitializerFunc" Duration="1" />
+    <TestDuration Test="Rank.ChekRankZero" Duration="1" />
+    <TestDuration Test="Rank.UnitMatrix" Duration="1" />
+    <TestDuration Test="Determinant.CheckDeterminantInitializerFunc" Duration="1" />
+    <TestDuration Test="MultiplicationByIntTest/MultiplicationByIntTests.CheckMultiplication/0" Duration="1" />
+    <TestDuration Test="MultiplicationByIntTest/MultiplicationByIntTests.CheckMultiplication/1" Duration="1" />
+    <TestDuration Test="MultiplicationByIntTest/MultiplicationByIntTests.CheckMultiplication/2" Duration="1" />
+    <TestDuration Test="MultiplicationByIntTest/MultiplicationByIntTests.CheckMultiplication/3" Duration="1" />
+    <TestDuration Test="MultiplicationByIntTest/MultiplicationByIntTests.CheckMultiplication/4" Duration="1" />
+    <TestDuration Test="MultiplicationByIntTest/MultiplicationByIntTests.CheckMultiplication/5" Duration="1" />
+    <TestDuration Test="MultiplicationByIntTest/MultiplicationByIntTests.CheckMultiplication/6" Duration="1" />
+    <TestDuration Test="MultiplicationByIntTest/MultiplicationByIntTests.CheckMultiplication/7" Duration="1" />
+    <TestDuration Test="MultiplicationByIntTest/MultiplicationByIntTests.CheckMultiplication/8" Duration="1" />
+    <TestDuration Test="MultiplicationByIntTest/MultiplicationByIntTests.CheckMultiplication/9" Duration="1" />
+    <TestDuration Test="MultiplicationByMatrixTest/MultiplicationByMatrixTests.CheckMatrixMultiplication/0" Duration="1" />
+    <TestDuration Test="MultiplicationByMatrixTest/MultiplicationByMatrixTests.CheckMatrixMultiplication/1" Duration="1" />
+    <TestDuration Test="MultiplicationByMatrixTest/MultiplicationByMatrixTests.CheckMatrixMultiplication/2" Duration="1" />
+    <TestDuration Test="MultiplicationByMatrixTest/MultiplicationByMatrixTests.CheckMatrixMultiplication/3" Duration="1" />
+    <TestDuration Test="MultiplicationByMatrixTest/MultiplicationByMatrixTests.CheckMatrixMultiplication/4" Duration="1" />
+    <TestDuration Test="MultiplicationByMatrixTest/MultiplicationByMatrixTests.CheckMatrixMultiplication/5" Duration="1" />
+    <TestDuration Test="MultiplicationByMatrixTest/MultiplicationByMatrixTests.CheckMatrixMultiplication/6" Duration="1" />
+    <TestDuration Test="MultiplicationByMatrixTest/MultiplicationByMatrixTests.CheckMatrixMultiplication/7" Duration="1" />
+    <TestDuration Test="MultiplicationByMatrixTest/MultiplicationByMatrixTests.CheckMatrixMultiplication/8" Duration="1" />
+    <TestDuration Test="MultiplicationByMatrixTest/MultiplicationByMatrixTests.CheckMatrixMultiplication/9" Duration="1" />
+    <TestDuration Test="Rank.witam" Duration="1" />
+    <TestDuration Test="constructor.Copy_constructor" Duration="4" />
+    <TestDuration Test="constructor.CheckCopyConstructor" Duration="1" />
+    <TestDuration Test="constructor.CheckShapeConstructor" Duration="1" />
+    <TestDuration Test="constructor.CheckShapeLambdaConstructor" Duration="1" />
+    <TestDuration Test="constructor.CheckVectorConstructor" Duration="1" />
+    <TestDuration Test="constructor.CheckRowsAndColumnsLambdaConstructor" Duration="1" />
+    <TestDuration Test="constructor.CheckRowsAndColumnsConstructor" Duration="1" />
+    <TestDuration Test="constructor.CheckRowsAndColumnsVectorConstructor" Duration="1" />
+    <TestDuration Test="operators.CheckMultiplicationBetweenTwoMatrices" Duration="1" />
+    <TestDuration Test="operators.CheckMultiplicationByIntegerValue" Duration="1" />
+    <TestDuration Test="operators.CheckAdditionOfTwoMatrices" Duration="1" />
+    <TestDuration Test="AdditionMatrixTest/AdditionMatrixTests.CheckAddition/0" Duration="1" />
+    <TestDuration Test="AdditionMatrixTest/AdditionMatrixTests.CheckAddition/1" Duration="1" />
+    <TestDuration Test="MultiplicationBetweenTwoMatricesTests/MultiplicationBetweenTwoMatricesTests.MultiplicationBetweenTwoMatrices/0" Duration="1" />
+    <TestDuration Test="MultiplicationBetweenTwoMatricesTests/MultiplicationBetweenTwoMatricesTests.MultiplicationBetweenTwoMatrices/1" Duration="1" />
+    <TestDuration Test="MultiplicationBetweenTwoMatricesTests/MultiplicationBetweenTwoMatricesTests.MultiplicationBetweenTwoMatrices/2" Duration="1" />
+    <TestDuration Test="MultiplicationBetweenTwoMatricesTests/MultiplicationBetweenTwoMatricesTests.MultiplicationBetweenTwoMatrices/3" Duration="1" />
+    <TestDuration Test="MultiplicationBetweenTwoMatricesTests/MultiplicationBetweenTwoMatricesTests.MultiplicationBetweenTwoMatrices/4" Duration="1" />
+    <TestDuration Test="MultiplicationBetweenTwoMatricesTests/MultiplicationBetweenTwoMatricesTests.MultiplicationBetweenTwoMatrices/5" Duration="1" />
+    <TestDuration Test="AdditionMatrixTest/AdditionMatrixTests.CheckAddition/2" Duration="1" />
+    <TestDuration Test="LoadDataTests.CheckLoadDataTest" Duration="1" />
+    <TestDuration Test="LoadDataTests.CheckLoadDataVectorTest" Duration="1" />
+    <TestDuration Test="LoadDataTests.CheckLoadDataLambdaTest" Duration="1" />
+    <TestDuration Test="DeterminantMatrixTest/DeterminantMatrixTests.CheckAddition/0" Duration="1" />
+    <TestDuration Test="DeterminantMatrixTest/DeterminantMatrixTests.CheckAddition/1" Duration="1" />
+    <TestDuration Test="DeterminantMatrixTest/DeterminantMatrixTests.CheckAddition/2" Duration="1" />
+    <TestDuration Test="DeterminantMatrixTest/DeterminantMatrixTests.CheckAddition/3" Duration="1" />
+    <TestDuration Test="DeterminantMatrixTest/DeterminantMatrixTests.CheckAddition/4" Duration="1" />
+  </TestDurations>
+</GtaTestDurations>

@@ -1,0 +1,6 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(499,5): warning MSB8004: Katalog Output nie kończy się ukośnikiem. To wystąpienie kompilacji doda ukośnik, ponieważ jest on niezbędny, aby możliwa była poprawna ocena katalogu Output.
+cl : wiersz polecenia warning D9035: Opcja "Gm" jest przestarzała i będzie usunięta w przyszłych wydaniach
+  test.cpp
+F:\studia\IO\tesotwanie\TestingLab-students\Include\Matrix.h(23,17): warning C4251: "Matrix::data": class "std::vector<double,std::allocator<double>>" wymaga posiadania użycia interfejsu biblioteki dll przez klientów class "Matrix"
+F:\studia\IO\tesotwanie\TestingLab-students\Include\Matrix.h(23): message : zobacz deklarację „std::vector<double,std::allocator<double>>”
+  Tests.vcxproj -> F:\studia\IO\tesotwanie\TestingLab-students\Include\Debug\x64\Tests.exe
